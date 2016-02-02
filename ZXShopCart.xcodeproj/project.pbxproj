@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F089D2441C60A37700DC6AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F089D2431C60A37700DC6AD7 /* main.m */; };
+		F089D2471C60A37700DC6AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F089D2461C60A37700DC6AD7 /* AppDelegate.m */; };
+		F089D24A1C60A37700DC6AD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F089D2491C60A37700DC6AD7 /* ViewController.m */; };
+		F089D24D1C60A37700DC6AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F089D24B1C60A37700DC6AD7 /* Main.storyboard */; };
+		F089D24F1C60A37700DC6AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F089D24E1C60A37700DC6AD7 /* Assets.xcassets */; };
+		F089D2521C60A37700DC6AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F089D2501C60A37700DC6AD7 /* LaunchScreen.storyboard */; };
+		F089D25D1C60A37700DC6AD7 /* ZXShopCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F089D25C1C60A37700DC6AD7 /* ZXShopCartTests.m */; };
+		F089D2681C60A37700DC6AD7 /* ZXShopCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F089D2671C60A37700DC6AD7 /* ZXShopCartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F089D2591C60A37700DC6AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F089D2371C60A37700DC6AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F089D23E1C60A37700DC6AD7;
+			remoteInfo = ZXShopCart;
+		};
+		F089D2641C60A37700DC6AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F089D2371C60A37700DC6AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F089D23E1C60A37700DC6AD7;
+			remoteInfo = ZXShopCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F089D23F1C60A37700DC6AD7 /* ZXShopCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXShopCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F089D2431C60A37700DC6AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F089D2451C60A37700DC6AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F089D2461C60A37700DC6AD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F089D2481C60A37700DC6AD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F089D2491C60A37700DC6AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F089D24C1C60A37700DC6AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F089D24E1C60A37700DC6AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F089D2511C60A37700DC6AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F089D2531C60A37700DC6AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F089D2581C60A37700DC6AD7 /* ZXShopCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXShopCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F089D25C1C60A37700DC6AD7 /* ZXShopCartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXShopCartTests.m; sourceTree = "<group>"; };
+		F089D25E1C60A37700DC6AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F089D2631C60A37700DC6AD7 /* ZXShopCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXShopCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F089D2671C60A37700DC6AD7 /* ZXShopCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXShopCartUITests.m; sourceTree = "<group>"; };
+		F089D2691C60A37700DC6AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F089D23C1C60A37700DC6AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D2551C60A37700DC6AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D2601C60A37700DC6AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F089D2361C60A37700DC6AD7 = {
+			isa = PBXGroup;
+			children = (
+				F089D2411C60A37700DC6AD7 /* ZXShopCart */,
+				F089D25B1C60A37700DC6AD7 /* ZXShopCartTests */,
+				F089D2661C60A37700DC6AD7 /* ZXShopCartUITests */,
+				F089D2401C60A37700DC6AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F089D2401C60A37700DC6AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F089D23F1C60A37700DC6AD7 /* ZXShopCart.app */,
+				F089D2581C60A37700DC6AD7 /* ZXShopCartTests.xctest */,
+				F089D2631C60A37700DC6AD7 /* ZXShopCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F089D2411C60A37700DC6AD7 /* ZXShopCart */ = {
+			isa = PBXGroup;
+			children = (
+				F089D2451C60A37700DC6AD7 /* AppDelegate.h */,
+				F089D2461C60A37700DC6AD7 /* AppDelegate.m */,
+				F089D2481C60A37700DC6AD7 /* ViewController.h */,
+				F089D2491C60A37700DC6AD7 /* ViewController.m */,
+				F089D24B1C60A37700DC6AD7 /* Main.storyboard */,
+				F089D24E1C60A37700DC6AD7 /* Assets.xcassets */,
+				F089D2501C60A37700DC6AD7 /* LaunchScreen.storyboard */,
+				F089D2531C60A37700DC6AD7 /* Info.plist */,
+				F089D2421C60A37700DC6AD7 /* Supporting Files */,
+			);
+			path = ZXShopCart;
+			sourceTree = "<group>";
+		};
+		F089D2421C60A37700DC6AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F089D2431C60A37700DC6AD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F089D25B1C60A37700DC6AD7 /* ZXShopCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				F089D25C1C60A37700DC6AD7 /* ZXShopCartTests.m */,
+				F089D25E1C60A37700DC6AD7 /* Info.plist */,
+			);
+			path = ZXShopCartTests;
+			sourceTree = "<group>";
+		};
+		F089D2661C60A37700DC6AD7 /* ZXShopCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F089D2671C60A37700DC6AD7 /* ZXShopCartUITests.m */,
+				F089D2691C60A37700DC6AD7 /* Info.plist */,
+			);
+			path = ZXShopCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F089D23E1C60A37700DC6AD7 /* ZXShopCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F089D26C1C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCart" */;
+			buildPhases = (
+				F089D23B1C60A37700DC6AD7 /* Sources */,
+				F089D23C1C60A37700DC6AD7 /* Frameworks */,
+				F089D23D1C60A37700DC6AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXShopCart;
+			productName = ZXShopCart;
+			productReference = F089D23F1C60A37700DC6AD7 /* ZXShopCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F089D2571C60A37700DC6AD7 /* ZXShopCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F089D26F1C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCartTests" */;
+			buildPhases = (
+				F089D2541C60A37700DC6AD7 /* Sources */,
+				F089D2551C60A37700DC6AD7 /* Frameworks */,
+				F089D2561C60A37700DC6AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F089D25A1C60A37700DC6AD7 /* PBXTargetDependency */,
+			);
+			name = ZXShopCartTests;
+			productName = ZXShopCartTests;
+			productReference = F089D2581C60A37700DC6AD7 /* ZXShopCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F089D2621C60A37700DC6AD7 /* ZXShopCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F089D2721C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCartUITests" */;
+			buildPhases = (
+				F089D25F1C60A37700DC6AD7 /* Sources */,
+				F089D2601C60A37700DC6AD7 /* Frameworks */,
+				F089D2611C60A37700DC6AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F089D2651C60A37700DC6AD7 /* PBXTargetDependency */,
+			);
+			name = ZXShopCartUITests;
+			productName = ZXShopCartUITests;
+			productReference = F089D2631C60A37700DC6AD7 /* ZXShopCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F089D2371C60A37700DC6AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周想";
+				TargetAttributes = {
+					F089D23E1C60A37700DC6AD7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F089D2571C60A37700DC6AD7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F089D23E1C60A37700DC6AD7;
+					};
+					F089D2621C60A37700DC6AD7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F089D23E1C60A37700DC6AD7;
+					};
+				};
+			};
+			buildConfigurationList = F089D23A1C60A37700DC6AD7 /* Build configuration list for PBXProject "ZXShopCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F089D2361C60A37700DC6AD7;
+			productRefGroup = F089D2401C60A37700DC6AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F089D23E1C60A37700DC6AD7 /* ZXShopCart */,
+				F089D2571C60A37700DC6AD7 /* ZXShopCartTests */,
+				F089D2621C60A37700DC6AD7 /* ZXShopCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F089D23D1C60A37700DC6AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F089D2521C60A37700DC6AD7 /* LaunchScreen.storyboard in Resources */,
+				F089D24F1C60A37700DC6AD7 /* Assets.xcassets in Resources */,
+				F089D24D1C60A37700DC6AD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D2561C60A37700DC6AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D2611C60A37700DC6AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F089D23B1C60A37700DC6AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F089D24A1C60A37700DC6AD7 /* ViewController.m in Sources */,
+				F089D2471C60A37700DC6AD7 /* AppDelegate.m in Sources */,
+				F089D2441C60A37700DC6AD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D2541C60A37700DC6AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F089D25D1C60A37700DC6AD7 /* ZXShopCartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F089D25F1C60A37700DC6AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F089D2681C60A37700DC6AD7 /* ZXShopCartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F089D25A1C60A37700DC6AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F089D23E1C60A37700DC6AD7 /* ZXShopCart */;
+			targetProxy = F089D2591C60A37700DC6AD7 /* PBXContainerItemProxy */;
+		};
+		F089D2651C60A37700DC6AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F089D23E1C60A37700DC6AD7 /* ZXShopCart */;
+			targetProxy = F089D2641C60A37700DC6AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F089D24B1C60A37700DC6AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F089D24C1C60A37700DC6AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F089D2501C60A37700DC6AD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F089D2511C60A37700DC6AD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F089D26A1C60A37700DC6AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F089D26B1C60A37700DC6AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F089D26D1C60A37700DC6AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXShopCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F089D26E1C60A37700DC6AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXShopCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F089D2701C60A37700DC6AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXShopCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXShopCart.app/ZXShopCart";
+			};
+			name = Debug;
+		};
+		F089D2711C60A37700DC6AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXShopCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXShopCart.app/ZXShopCart";
+			};
+			name = Release;
+		};
+		F089D2731C60A37700DC6AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXShopCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXShopCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F089D2741C60A37700DC6AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXShopCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shaynechow.ZXShopCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXShopCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F089D23A1C60A37700DC6AD7 /* Build configuration list for PBXProject "ZXShopCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F089D26A1C60A37700DC6AD7 /* Debug */,
+				F089D26B1C60A37700DC6AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F089D26C1C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F089D26D1C60A37700DC6AD7 /* Debug */,
+				F089D26E1C60A37700DC6AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F089D26F1C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F089D2701C60A37700DC6AD7 /* Debug */,
+				F089D2711C60A37700DC6AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F089D2721C60A37700DC6AD7 /* Build configuration list for PBXNativeTarget "ZXShopCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F089D2731C60A37700DC6AD7 /* Debug */,
+				F089D2741C60A37700DC6AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F089D2371C60A37700DC6AD7 /* Project object */;
+}
