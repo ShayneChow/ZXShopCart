@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZXShopCartViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)openShopCart {
+    ZXShopCartViewController *shopCartVC = [[ZXShopCartViewController alloc] init];
+    [self.navigationController pushViewController:shopCartVC animated:YES];
 }
 
 @end
